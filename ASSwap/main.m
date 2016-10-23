@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
         printf("Enter second number:\n");
         scanf("%d",&number2);
         
-        printf("Before swapping first Number is = %d and second number is = %d\n",number1,number2);
+        printf("Before swapping first Number is = %d\n and second number is = %d\n",number1,number2);
         
 
         swap(&number1,&number2);
